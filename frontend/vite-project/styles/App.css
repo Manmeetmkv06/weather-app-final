@@ -1,0 +1,62 @@
+/* styles/App.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0072ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  .weather-info {
+    margin-top: 2rem;
+  }
+  
+  .weather-info h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .weather-info p {
+    font-size: 1.1rem;
+  }
+  
